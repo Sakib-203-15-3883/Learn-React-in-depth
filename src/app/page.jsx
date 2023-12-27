@@ -27,14 +27,15 @@ export default function Home() {
 
         </BoxComponent>
 
+        {/* To Do app Ui  */}
 
         <BoxComponent>
 
 
-          <p className=" grid place-content-center mt-10 mb-10 text-xl font-bold ">Learn All About components  </p>
+          <p className=" grid place-content-center mt-10 mb-10 text-xl font-bold ">To Do app UI  </p>
           <div className="ml-28 text-lg ">
 
-            <button type="button" onClick={() => router.push('./learn_components')} className="bg-blue-500 text-white p-2 rounded-md"  >Click Here To Learn </button>
+            <button type="button" onClick={() => router.push('./to_do_app_ui')} className="bg-blue-500 text-white p-2 rounded-md"  >Click Here To See </button>
 
 
           </div>
@@ -42,6 +43,8 @@ export default function Home() {
 
 
         </BoxComponent>
+
+
 
 
 
