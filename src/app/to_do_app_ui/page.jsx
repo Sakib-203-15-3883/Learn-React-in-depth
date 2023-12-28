@@ -1,7 +1,7 @@
 "use client";
 import TaskInput from "@/components/ToDoApp/TaskInput";
 import Button from "@/components/ToDoApp/Button";
-import Task from "@/components/ToDoApp/Task"
+import Task from "@/components/ToDoApp/Task";
 
 const ToDoApp = () => {
   return (
@@ -24,14 +24,9 @@ const ToDoApp = () => {
             />
           </li>
 
-          <Task name="buy milk" date="4/10/2023" onDelete={() => { }} />
+          <Task name="buy milk" date="4/10/2023" />
 
-          <Task name="Learn Something" date="4/10/2023" onDelete={() => { }} />
-
-
-
-
-
+          <Task name="Learn Something" date="4/10/2023" />
 
 
         </ul>
