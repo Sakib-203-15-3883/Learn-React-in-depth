@@ -1,7 +1,5 @@
 "use client"
 import { useState } from "react";
-import BoxComponent from "@/components/BoxComponent";
-
 import { learn_components } from "@/components/concept_list";
 
 
@@ -38,7 +36,9 @@ const Button = () => {
     <div className="grid gap-10 m-10">
 
 
-      <BoxComponent>
+
+
+      <div className="bg-gray-300 p-6 rounded-md shadow-md">
 
         <p>Perform increment & decrement for value 10 .[ Limit 0 to 20 ] </p>
 
@@ -55,10 +55,10 @@ const Button = () => {
 
 
 
-      </BoxComponent>
+      </div>
 
 
-      <BoxComponent>
+      <div className="grid gap-10 m-10">
         <p className="font-bold m-10">
           All the concepts that I learned related to components are given below</p>
 
@@ -70,7 +70,7 @@ const Button = () => {
             </li>
           ))}
         </ul>
-      </BoxComponent>
+      </div>
 
 
     </div>

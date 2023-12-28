@@ -1,57 +1,26 @@
-"use client"
-import { useRouter } from "next/navigation";
+"use client";
 import BoxComponent from "@/components/BoxComponent";
-
+import { BoxComponent_content } from "@/components/concept_list/index"
 
 export default function Home() {
-
-  const router = useRouter();
   return (
     <>
-
       <div className="grid gap-10 m-10">
 
 
-        <BoxComponent>
+        {BoxComponent_content.map((item, index) => (
 
+          <BoxComponent
+            key={index}
+            title={item.title}
+            button_content={item.button_content}
+            link={item.link}
+          />
 
-          <p className=" grid place-content-center mt-10 mb-10 text-xl font-bold ">Learn All About components  </p>
-          <div className="ml-28 text-lg ">
-
-            <button type="button" onClick={() => router.push('./learn_components')} className="bg-blue-500 text-white p-2 rounded-md"  >Click Here To Learn </button>
-
-
-          </div>
-
-
-
-        </BoxComponent>
-
-        {/* To Do app Ui  */}
-
-        <BoxComponent>
-
-
-          <p className=" grid place-content-center mt-10 mb-10 text-xl font-bold ">To Do app UI  </p>
-          <div className="ml-28 text-lg ">
-
-            <button type="button" onClick={() => router.push('./to_do_app_ui')} className="bg-blue-500 text-white p-2 rounded-md"  >Click Here To See </button>
-
-
-          </div>
-
-
-
-        </BoxComponent>
-
-
-
+        ))}
 
 
       </div>
-
-
-
     </>
   );
 }

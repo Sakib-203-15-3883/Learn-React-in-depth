@@ -33,3 +33,32 @@ export const learn_components = [
       "Dynamic and reuseable component. [ here , i use map method to iterate data ]",
   },
 ];
+
+export const BoxComponent_content = [
+  {
+    title:
+      "React Level 1 [ Learn All About components. Modularity, consistency , efficiency, maintainability ,  JSX , import & export statement , Dynamic and reuseable component ] ",
+
+    button_content: "Click Here To Learn",
+
+    link: "/learn_components",
+  },
+
+  {
+    title:
+      "Dummy static To Do App UI . [ I try to create this dummy ui with reusable components with modularity , consistancy , efficiency and maintainability ]  ",
+
+    button_content: "Click Here To Learn",
+
+    link: "./to_do_app_ui",
+  },
+
+  {
+    title:
+      "React Level 2 [ Fragments, Rendering lists using Map Method, Conditional Rendering, Passing Data via Props, CSS Modules ] ",
+
+    button_content: "Click Here To Learn",
+
+    link: "/level2",
+  },
+];
