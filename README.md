@@ -12,8 +12,12 @@
 
 here , I create 3 components as button , input_task & to display task data , i create task_data component . At last , i bringing everything together at root component which is To Do App . here i pass data to component as props  ]
 
-
-
+7. Fragments
+8. Rendering lists using Map Method,
+9. Conditional Rendering,
+10. Passing Data via Props,
+11. CSS Modules
+12 . Calculator App UI
 
 
 
