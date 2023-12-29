@@ -46,7 +46,7 @@ export const BoxComponent_content = [
 
   {
     title:
-      "Dummy static To Do App UI . [ I try to create this dummy ui with reusable components with modularity , consistancy , efficiency and maintainability ]  ",
+      "To Do App Dummy UI  . [ I try to create this dummy ui with reusable components with modularity , consistancy , efficiency and maintainability ]  ",
 
     button_content: "Click Here To Learn",
 
@@ -60,5 +60,13 @@ export const BoxComponent_content = [
     button_content: "Click Here To Learn",
 
     link: "/level2",
+  },
+
+  {
+    title: "Calculator UI  ",
+
+    button_content: "Click Here To Learn",
+
+    link: "/calculator",
   },
 ];

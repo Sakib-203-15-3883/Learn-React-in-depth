@@ -1,12 +1,13 @@
 "use client"
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 const BoxComponent = ({ title, button_content, link }) => {
 
-  const router = useRouter();
+  // const router = useRouter();
 
   const handleButtonClick = () => {
     if (link) {
-      router.push(link);
+      // router.push(link);
+      window.open(link, '_blank');
     }
   };
 
