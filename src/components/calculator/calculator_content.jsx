@@ -12,10 +12,10 @@ const CalculatorContent = () => {
       <ul className="grid grid-cols-4 gap-4 p-10 m-10">
         {
 
-          calculatorButtonContent.map((item) => {
+          calculatorButtonContent.map((item, index) => {
             return (
 
-              <li > <Button
+              <li key={index}> <Button
 
                 onClick={() => { }}
                 label={item}

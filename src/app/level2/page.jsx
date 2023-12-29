@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Button from "@/components/ToDoApp/Button"
 
-const level2 = () => {
+const Level2 = () => {
 
   const [selectedButton, setSelectedButton] = useState(null);
 
@@ -85,4 +85,4 @@ const level2 = () => {
   )
 }
 
-export default level2;
+export default Level2;
