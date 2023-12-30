@@ -69,4 +69,13 @@ export const BoxComponent_content = [
 
     link: "/calculator",
   },
+
+  {
+    title:
+      "Level 3: [ Passing Components as Children, Handling Events, Passing Functions via Props, State Management {useState Hook to manage Component State, State vs Props},   ",
+
+    button_content: "Click Here To Learn",
+
+    link: "/level3",
+  },
 ];
