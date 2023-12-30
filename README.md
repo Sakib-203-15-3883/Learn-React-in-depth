@@ -14,12 +14,12 @@ here , I create 3 components as button , input_task & to display task data , i c
 
 7. Fragments
 8. Rendering lists using Map Method,
-9. Conditional Rendering,
-10. Passing Data via Props,
+9. Conditional Rendering. [ using ternary operator ? , using logical operator &&, Learn  when we use which operator for conditional rendering ]
+10. Passing Data via Props [ string , number , variables ] 
 11. CSS Modules
 12 . Calculator App UI
 
-13. children props
+13. children props. [ passing components and group of elements as props ] 
 14. Event Handling [ onClick, onChange ] 
 
 
