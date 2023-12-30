@@ -20,7 +20,8 @@ here , I create 3 components as button , input_task & to display task data , i c
 12 . Calculator App UI
 
 13. children props. [ passing components and group of elements as props ] 
-14. Event Handling [ onClick, onChange ] 
+14. Event Handling [ onClick, onChange ]
+15. passing Functions via props. [ it,s allow child components to interacts with parent components ] 
 
 
 
