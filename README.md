@@ -24,7 +24,8 @@ here , I create 3 components as button , input_task & to display task data , i c
 15. passing Functions via props. [ it,s allow child components to interacts with parent components ]
 16. All about state
 17. onKeyDown event with an example
-18. full functional calculator done 
+18. full functional calculator done
+19. full functional to do app done 
 
 
 
