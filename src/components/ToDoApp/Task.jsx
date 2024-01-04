@@ -1,7 +1,7 @@
 "use client ";
 import Button from "./Button";
 
-const Task = ({ name, date, }) => {
+const Task = ({ name, date, onDelete }) => {
   return (
     <>
       <li className="col-span-2 rounded-md bg-white">
@@ -17,7 +17,7 @@ const Task = ({ name, date, }) => {
       <li className="grid place-content-center">
         <Button
 
-          onClick={() => { }}
+          onClick={onDelete}
           label="Delete"
           bgColor="red-500"
           textColor="white"
