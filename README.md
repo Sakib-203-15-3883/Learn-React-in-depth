@@ -1,3 +1,9 @@
+# Interview questions : 
+1. Simple Component Rendering :  Create a React component that renders a basic card with information passed as props.
+2. Dynamic List Rendering : Build a component that takes an array of items as props and dynamically renders a list with their details.
+
+
+# React concepts
 1.Why react ?
 
 2.Basic of components [ Modularity, consistency , efficiency, maintainability ] 
