@@ -36,6 +36,13 @@ export const learn_components = [
 
 export const BoxComponent_content = [
   {
+    title: "conceptual_practice. Try to solve so many  interview questions  ",
+
+    button_content: "Click Here To Learn",
+
+    link: "/conceptual_practice",
+  },
+  {
     title:
       "React Level 1 [ Learn All About components. Modularity, consistency , efficiency, maintainability ,  JSX , import & export statement , Dynamic and reuseable component ] ",
 
@@ -45,8 +52,7 @@ export const BoxComponent_content = [
   },
 
   {
-    title:
-      "To Do App   . [ I try to create this dummy ui with reusable components with modularity , consistancy , efficiency and maintainability ]  ",
+    title: "To Do App   ",
 
     button_content: "Click Here To Learn",
 
