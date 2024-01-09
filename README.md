@@ -1,6 +1,6 @@
 # Interview questions : 
 1. Simple Component Rendering :  Create a React component that renders a basic card with information passed as props.
-2. Dynamic List Rendering : Build a component that takes an array of items as props and dynamically renders a list with their details.
+2. Conditional Rendering : Implement a component that conditionally renders different content based on a prop value (e.g., showing different list of items based on user clicked).
 
 
 # React concepts
