@@ -8,26 +8,49 @@ const Renders_Card = () => {
     },
 
     {
-      title: "product 1",
+      title: "product 2",
       heading: "T - shirt",
       content: "Information all about t-shirt",
     },
 
     {
-      title: "product 1",
+      title: "product 3",
+      heading: "T - shirt",
+      content: "Information all about t-shirt",
+    },
+    {
+      title: "product 4",
+      heading: "T - shirt",
+      content: "Information all about t-shirt",
+    },
+
+    {
+      title: "product 5",
+      heading: "T - shirt",
+      content: "Information all about t-shirt",
+    },
+
+    {
+      title: "product 6",
       heading: "T - shirt",
       content: "Information all about t-shirt",
     },
   ];
   return (
     <>
-      {CardInformation.map((item, index) => {
-        return (
-          <>
-            <Card key={index} CardInformation={item} />
-          </>
-        );
-      })}
+      <div className="grid  md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3" >
+
+        {CardInformation.map((item, index) => {
+          return (
+            <>
+              <Card key={index} CardInformation={item} />
+            </>
+          );
+        })}
+
+
+      </div>
+
     </>
   );
 };
