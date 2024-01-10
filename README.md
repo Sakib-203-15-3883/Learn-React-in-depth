@@ -1,6 +1,7 @@
 # Interview questions : 
 1. Simple Component Rendering :  Create a React component that renders a basic card with information passed as props.
 2. Conditional Rendering : Implement a component that conditionally renders different content based on a prop value (e.g., showing different list of items based on user clicked).
+3. Form Handling : Build a form component with input fields for name and email. Implement an event handler to capture input values and display them on submission. Add basic reset feature .
 
 
 # React concepts
