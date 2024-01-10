@@ -139,24 +139,26 @@ const Conceptual_practice = () => {
           <li className="mt-5 mb-5">
             <span className="font-bold text-xl">step 1 :</span>
             <br />
-            TBA
+            Create state variables for searchQuery and searchResult using useState.
+            Initialize searchQuery with an empty string, and searchResult with an empty array.Create an array named sportsName containing various sports from around the world.
           </li>
 
           <li className="mt-5 mb-5">
             <span className="font-bold text-xl">step 2 :</span>
             <br />
-            TBA
+            Implement a function handleOnChange to update the searchQuery state based on user input.Implement a function handleOnKeyDown to trigger the search when the Enter key is pressed.
           </li>
           <li className="mt-5 mb-5">
             <span className="font-bold text-xl">step 3 :</span>
             <br />
-            TBA
+            Implement a function handleSearch to filter sports based on the current searchQuery.Update the searchResult state with the filtered sports.
           </li>
 
           <li className="mt-5 mb-5">
             <span className="font-bold text-xl">step 4 :</span>
             <br />
-            TBA
+            Design UI
+            Conditionally render either a "Search result not found" message or the filtered sports list based on the length of searchResult.
           </li>
         </ul>
 
