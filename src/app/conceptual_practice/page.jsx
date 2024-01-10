@@ -132,7 +132,7 @@ const Conceptual_practice = () => {
           component should feature a search box allowing users to input search
           queries, complemented by a search icon to initiate the search.
           Implement the search trigger functionality to respond to both "Enter"
-          key presses and clicks on the search icon. Upon searching, dynamically
+          key presses and clicks on the search icon. Upon searching , dynamically
           display matching elements over the UI.
         </h1>
         <ul className="m-5 p-5">
@@ -158,7 +158,7 @@ const Conceptual_practice = () => {
             <span className="font-bold text-xl">step 4 :</span>
             <br />
             Design UI
-            Conditionally render either a "Search result not found" message or the filtered sports list based on the length of searchResult.
+            Conditionally render either a Search result not found message or the filtered sports list based on the length of searchResult.
           </li>
         </ul>
 
