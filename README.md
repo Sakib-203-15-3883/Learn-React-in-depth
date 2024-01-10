@@ -2,6 +2,7 @@
 1. Simple Component Rendering :  Create a React component that renders a basic card with information passed as props.
 2. Conditional Rendering : Implement a component that conditionally renders different content based on a prop value (e.g., showing different list of items based on user clicked).
 3. Form Handling : Build a form component with input fields for name and email. Implement an event handler to capture input values and display them on submission. Add basic reset feature .
+4.  search Handling: Design a React component to implement a search functionality. The component should feature a search box allowing users to input search queries, complemented by a search icon to initiate the search. Implement the search trigger functionality to respond to both Enter key presses and clicks on the search icon. Upon searching , dynamically display matching elements over the UI.
 
 
 # React concepts
