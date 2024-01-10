@@ -1,6 +1,8 @@
 "use client"
 import Renders_Card from "@/components/conceptual_practice/question1/index";
 import ConditionalRendering from "@/components/conceptual_practice/question2/index"
+
+import FormComponent1 from "@/components/conceptual_practice/question3/form1"
 const Conceptual_practice = () => {
   return (
     <>
@@ -68,6 +70,44 @@ const Conceptual_practice = () => {
         </ul>
 
         <ConditionalRendering />
+      </div>
+
+
+
+      {/* ///////   Question 3   //// ///*/}
+      <div>
+        <h1 className="m-8  text-2xl">
+          <span className="font-bold">Question 3 , Form Handling</span>
+          <br />
+          Build a form component with input fields for name and email. Implement an event handler to capture input values and display them on submission. Add basic reset feature .
+        </h1>
+        <ul className="m-5 p-5">
+          <li className="mt-5 mb-5">
+            <span className="font-bold text-xl">step 1 :</span>
+            <br />
+            At first , i create a basic form structure with [ form , label ,input and submit element ] to receive user name and email .
+          </li>
+
+          <li className="mt-5 mb-5">
+            <span className="font-bold text-xl">step 2 :</span>
+            <br />
+            now i need to handle or store that user data . so , i create an object to store name and email . initially values were empty string . user information mat change over time , so i create a state and pass that object as initial value .
+          </li>
+          <li className="mt-5 mb-5">
+            <span className="font-bold text-xl">step 3 :</span>
+            <br />
+            now , i use event handler function to store user input data to object . first , i copy previous object with spread operator . and then updated with new value .
+          </li>
+
+          <li className="mt-5 mb-5">
+            <span className="font-bold text-xl">step 4 :</span>
+            <br />
+            i added reset feature and and display that user input information over UI .
+          </li>
+        </ul>
+
+
+        <FormComponent1 />
       </div>
     </>
   );
