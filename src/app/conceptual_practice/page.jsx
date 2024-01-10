@@ -131,7 +131,7 @@ const Conceptual_practice = () => {
           Design a React component to implement a search functionality. The
           component should feature a search box allowing users to input search
           queries, complemented by a search icon to initiate the search.
-          Implement the search trigger functionality to respond to both "Enter"
+          Implement the search trigger functionality to respond to both Enter
           key presses and clicks on the search icon. Upon searching , dynamically
           display matching elements over the UI.
         </h1>
