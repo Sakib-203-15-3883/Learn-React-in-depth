@@ -4,6 +4,9 @@ import ConditionalRendering from "@/components/conceptual_practice/question2/ind
 
 import SearchComponent1 from "@/components/conceptual_practice/question4/search";
 import FormComponent1 from "@/components/conceptual_practice/question3/form1";
+
+
+import SearchAndSort from "@/components/conceptual_practice/question5/searchAndSort"
 const Conceptual_practice = () => {
   return (
     <>
@@ -163,6 +166,51 @@ const Conceptual_practice = () => {
         </ul>
 
         <SearchComponent1 />
+      </div>
+
+
+      {/* ///////   Question 5   //// ///*/}
+      <div>
+        <h1 className="m-8  text-2xl">
+          <span className="font-bold">Question 5 , complete given task :
+
+          </span>
+          <br /><br />
+
+          Goals:
+
+          1. Add a search functionality to filter phones.
+          2. Implement sorting options for phones (ascending and descending).
+          3. Display the total count of phones.
+          4.Give feedback if no phones match the search query.
+
+        </h1>
+        <ul className="m-5 p-5">
+          <li className="mt-5 mb-5">
+            <span className="font-bold text-xl">step 1 :</span>
+            <br />
+            TBA
+          </li>
+
+          <li className="mt-5 mb-5">
+            <span className="font-bold text-xl">step 2 :</span>
+            <br />
+            TBA
+          </li>
+          <li className="mt-5 mb-5">
+            <span className="font-bold text-xl">step 3 :</span>
+            <br />
+            TBA
+          </li>
+
+          <li className="mt-5 mb-5">
+            <span className="font-bold text-xl">step 4 :</span>
+            <br />
+            TBA
+          </li>
+        </ul>
+
+        <SearchAndSort />
       </div>
     </>
   );
