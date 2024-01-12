@@ -9,7 +9,14 @@ import FormComponent1 from "@/components/conceptual_practice/question3/form1";
 import SearchAndSort from "@/components/conceptual_practice/question5/searchAndSort"
 const Conceptual_practice = () => {
   return (
+
+
     <>
+
+      <p className="bg-blue-500 text-white font-bold py-2 px-4 rounded-md ml-16 mr-16 transition duration-300 ease-in-out hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue grid place-content-center mt-16"><a href="https://github.com/Sakib-203-15-3883/Learn-React-in-depth-with-NextJs/tree/main/src/components/conceptual_practice" target="_blank"> Source code for all question </a></p>
+
+
+
       {/* ///////   Question 1   //// ///*/}
       <div>
         <h1 className="m-8  text-2xl">
@@ -189,24 +196,24 @@ const Conceptual_practice = () => {
           <li className="mt-5 mb-5">
             <span className="font-bold text-xl">step 1 :</span>
             <br />
-            TBA
+            First create a input box to receive user query . Then , match that query with existing data . store all the matching data into a new array .
           </li>
 
           <li className="mt-5 mb-5">
             <span className="font-bold text-xl">step 2 :</span>
             <br />
-            TBA
+            perform sort operation on that filtered new array . store that sorted value into new array .
           </li>
           <li className="mt-5 mb-5">
             <span className="font-bold text-xl">step 3 :</span>
             <br />
-            TBA
+            call both search and sort function as a callback .  and store values into a new array  . this array values are sorted and filtered .
           </li>
 
           <li className="mt-5 mb-5">
             <span className="font-bold text-xl">step 4 :</span>
             <br />
-            TBA
+            based on sorted and filtered value , render UI .
           </li>
         </ul>
 
