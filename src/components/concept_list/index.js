@@ -78,10 +78,19 @@ export const BoxComponent_content = [
 
   {
     title:
-      "Level 3: [ Passing Components as Children, Handling Events, Passing Functions via Props, State Management {useState Hook to manage Component State, State vs Props},   ",
+      "Level 3: [ Passing Components as Children, Handling Events, Passing Functions via Props, State Management {useState Hook to manage Component State, State vs Props ],   ",
 
     button_content: "Click Here To Learn",
 
     link: "/level3",
+  },
+
+  {
+    title:
+      "Level 4: [ React-Icon Library, Inspecting with React Dev Tools, How React Works, React vs Angular vs VueJs, Forms in React, useRef Hook, Spread operator and Functional updates ],   ",
+
+    button_content: "Click Here To Learn",
+
+    link: "/level4",
   },
 ];
