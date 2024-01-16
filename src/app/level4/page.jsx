@@ -1,9 +1,26 @@
+
 import ReactIcons from "@/components/level4/react-icons"
+import HowReactWorks from "@/components/level4/howReactWorks"
+import ReactForm from "@/components/level4/reactForm"
 const Level4 = () => {
 
   return (
     <>
-      <ReactIcons />
+      <div className="m-16">
+        <ReactIcons />
+
+      </div>
+
+      <div className="m-16">
+        <HowReactWorks />
+      </div>
+
+      <div className="m-16">
+        <ReactForm />
+      </div>
+
+
+
     </>
   )
 }
