@@ -38,7 +38,11 @@ here , I create 3 components as button , input_task & to display task data , i c
 16. All about state
 17. onKeyDown event with an example
 18. full functional calculator done
-19. full functional to do app done 
+19. full functional to do app done
+20. React-Icon Library
+21. Inspecting with React Dev Tools
+22. How React Works [ root component , virtual dom , react dom ]
+23. Forms in React
 
 
 
