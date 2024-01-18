@@ -9,6 +9,9 @@
   
 5. complete given task : Goals 1. Add a search functionality to filter phones. 2. Implement sorting options for phones (ascending and descending). 3. Display the total count of phones. 4.Give feedback if no phones match the search query.
 
+6. You are tasked with enhancing a sports application. The application currently displays an array containing the names of three sports. The goal is to implement a feature that allows users to dynamically add a new sport to the list. Once a new sport is added, the updated list should be rendered on the user interface.
+Requirements: Use React for the frontend development. Initially, the array should contain the names of three sports: "Football," "Basketball," and "Tennis." Implement a feature that lets users input the name of a new sport. Provide a mechanism, such as a button click or Enter key press, for users to submit the new sport name. Update the state with the new list of sports using the functional form of setState. Clear the input field after successfully adding a new sport. Render the updated list on the user interface.
+
 
 # React concepts
 1.Why react ?
