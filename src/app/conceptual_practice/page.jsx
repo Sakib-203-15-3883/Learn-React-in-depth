@@ -5,6 +5,8 @@ import ConditionalRendering from "@/components/conceptual_practice/question2/ind
 import SearchComponent1 from "@/components/conceptual_practice/question4/search";
 import FormComponent1 from "@/components/conceptual_practice/question3/form1";
 
+import Question6 from "@/components/conceptual_practice/question6"
+
 
 import SearchAndSort from "@/components/conceptual_practice/question5/searchAndSort"
 const Conceptual_practice = () => {
@@ -218,6 +220,63 @@ const Conceptual_practice = () => {
         </ul>
 
         <SearchAndSort />
+      </div>
+
+
+
+
+      {/* ///////   Question 6   //// ///*/}
+      <div>
+        <h1 className="m-8  text-2xl">
+          <span className="font-bold">Question 6 , complete given task :
+
+          </span>
+          <br /><br />
+
+          <span className="font-bold text-3xl">Question:
+          </span>
+
+          You are tasked with enhancing a sports application. The application currently displays an array containing the names of three sports. The goal is to implement a feature that allows users to dynamically add a new sport to the list. Once a new sport is added, the updated list should be rendered on the user interface. <br /><br /><br />
+
+          <span className="font-bold">Requirements:
+          </span>
+
+          Use React for the frontend development.
+          Initially, the array should contain the names of three sports: "Football," "Basketball," and "Tennis."
+          Implement a feature that lets users input the name of a new sport.
+          Provide a mechanism, such as a button click or Enter key press, for users to submit the new sport name.
+          Validate that the input is not empty before adding it to the list.
+          Update the state with the new list of sports using the functional form of setState.
+          Clear the input field after successfully adding a new sport.
+          Render the updated list on the user interface.
+
+        </h1>
+        <ul className="m-5 p-5">
+          <li className="mt-5 mb-5">
+            <span className="font-bold text-xl">step 1 :</span>
+            <br />
+            create a input field to fetch item name from users . then store that item name into item state variable .
+          </li>
+
+          <li className="mt-5 mb-5">
+            <span className="font-bold text-xl">step 2 :</span>
+            <br />
+            when user click the submit button or press enter key , that time we call setItem method to update the item variable with entered item value .
+          </li>
+          <li className="mt-5 mb-5">
+            <span className="font-bold text-xl">step 3 :</span>
+            <br />
+            now , we need to store that new value to an array called list . we call add item function , that add new value to array based on previous array value . so , we need another state that holds list array and updated that list array based on previous array . so , here , we update atate based on previous state .
+          </li>
+
+          <li className="mt-5 mb-5">
+            <span className="font-bold text-xl">step 4 :</span>
+            <br />
+            Finally , we render all the things over ui .
+          </li>
+        </ul>
+
+        <Question6 />
       </div>
     </>
   );
