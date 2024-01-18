@@ -43,6 +43,7 @@ here , I create 3 components as button , input_task & to display task data , i c
 21. Inspecting with React Dev Tools
 22. How React Works [ root component , virtual dom , react dom ]
 23. Forms in React
+24. Update state from previous state [ with example ] 
 
 
 
