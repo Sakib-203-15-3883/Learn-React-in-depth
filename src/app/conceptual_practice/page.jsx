@@ -242,7 +242,7 @@ const Conceptual_practice = () => {
           </span>
 
           Use React for the frontend development.
-          Initially, the array should contain the names of three sports: "Football," "Basketball," and "Tennis."
+          Initially, the array should contain the names of three sports: Football, Basketball, and Tennis.
           Implement a feature that lets users input the name of a new sport.
           Provide a mechanism, such as a button click or Enter key press, for users to submit the new sport name.
           Validate that the input is not empty before adding it to the list.
@@ -266,7 +266,7 @@ const Conceptual_practice = () => {
           <li className="mt-5 mb-5">
             <span className="font-bold text-xl">step 3 :</span>
             <br />
-            now , we need to store that new value to an array called list . we call add item function , that add new value to array based on previous array value . so , we need another state that holds list array and updated that list array based on previous array . so , here , we update atate based on previous state .
+            now , we need to store that new value to an array called list . we call add item function , that add new value to array based on previous array value . so , we need another state that holds list array and updated that list array based on previous array . so , here , we update state based on previous state .
           </li>
 
           <li className="mt-5 mb-5">
