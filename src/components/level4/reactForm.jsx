@@ -5,34 +5,32 @@ const ReactForm = () => {
   const [id, setId] = useState("");
   const [fromSubmit, setFromSubmit] = useState(false);
   const [editFrom, setEditFrom] = useState(false);
-  const [reset, setReset] = useState();
+
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
     setFromSubmit(true);
-    setEditFrom(false)
-
+    setEditFrom(false);
   };
 
   const handleOnChangeForName = (event) => {
     // console.log(event.target.value);
-
     setName(event.target.value);
-    setEditFrom(true)
+    setEditFrom(true);
   };
+
+
 
   const handleOnChangeForId = (event) => {
     // console.log(event.target.value);
-
     setId(event.target.value);
-    setEditFrom(true)
+    setEditFrom(true);
   };
 
   const handleOnClick = () => {
-    setName("")
-    setId("")
-
-  }
+    setName("");
+    setId("");
+  };
 
   return (
     <>
