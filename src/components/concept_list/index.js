@@ -93,4 +93,12 @@ export const BoxComponent_content = [
 
     link: "/level4",
   },
+
+  {
+    title: "nextJs  image    ",
+
+    button_content: "Click Here To Learn",
+
+    link: "/nextImage",
+  },
 ];
