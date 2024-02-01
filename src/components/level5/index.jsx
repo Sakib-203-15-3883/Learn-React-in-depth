@@ -1,11 +1,14 @@
 
 import Image from "next/image";
+
 const NextImagePractice = () => {
 
 
   return (
 
     <>
+
+      <h1 className="m-10 grid place-content-center font-bold text-3xl">Display some images with NextJs image component  </h1>
 
       <div className="grid  grid-cols-3 gap-10 pt-10    ">
 

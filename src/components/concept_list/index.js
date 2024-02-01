@@ -95,10 +95,10 @@ export const BoxComponent_content = [
   },
 
   {
-    title: "nextJs  image    ",
+    title: "nextJs  image , fetch , axios    ",
 
     button_content: "Click Here To Learn",
 
-    link: "/nextImage",
+    link: "/level5",
   },
 ];
