@@ -29,7 +29,7 @@ const DisplayLocalApiData = () => {
       </div>
 
       {error ? (
-        <div className="text-red-500 text-center">{error}</div>
+        <div className="text-red-500 text-center text-3xl mb-40">{error}</div>
       ) : (<div>
         {studentsInformation.map((studentsInformation, index) => {
           return (

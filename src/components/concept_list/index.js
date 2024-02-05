@@ -95,10 +95,19 @@ export const BoxComponent_content = [
   },
 
   {
-    title: "nextJs  image , fetch , axios    ",
+    title:
+      "nextJs  image , fetch , axios , DisplayLocalApiData, FileUpload with multer    ",
 
     button_content: "Click Here To Learn",
 
     link: "/level5",
+  },
+
+  {
+    title: " FileUpload , display  file and download file  with multer    ",
+
+    button_content: "Click Here To Learn",
+
+    link: "/level6",
   },
 ];
